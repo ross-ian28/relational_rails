@@ -12,5 +12,8 @@ RSpec.describe 'Ferret index page' do
       expect(page).to have_content(@ferret1.name)
       expect(page).to have_content(@ferret2.name)
     end
+    it 'orders ferrets by most recent' do
+      expect(page).to have_content('Created at:')
+    end
   end
 end
