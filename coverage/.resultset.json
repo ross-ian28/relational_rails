@@ -242,6 +242,122 @@
           null
         ]
       },
+      "/Users/ianross/turing/mod2/relational_rails/spec/features/ferrets/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianross/turing/mod2/relational_rails/spec/features/ferrets/snacks/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianross/turing/mod2/relational_rails/spec/features/snacks/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianross/turing/mod2/relational_rails/spec/features/snacks/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianross/turing/mod2/relational_rails/spec/models/ferret_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/ianross/turing/mod2/relational_rails/app/models/ferret.rb": {
         "lines": [
           1,
@@ -260,6 +376,23 @@
           null
         ]
       },
+      "/Users/ianross/turing/mod2/relational_rails/spec/models/snack_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/ianross/turing/mod2/relational_rails/app/models/snack.rb": {
         "lines": [
           1,
@@ -267,6 +400,25 @@
           null,
           1,
           null,
+          1,
+          null
+        ]
+      },
+      "/Users/ianross/turing/mod2/relational_rails/app/controllers/ferrets_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ianross/turing/mod2/relational_rails/app/controllers/application_controller.rb": {
+        "lines": [
           1,
           null
         ]
@@ -280,13 +432,20 @@
           null
         ]
       },
-      "/Users/ianross/turing/mod2/relational_rails/app/controllers/application_controller.rb": {
+      "/Users/ianross/turing/mod2/relational_rails/app/controllers/snacks_controller.rb": {
         "lines": [
           1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1648144533
+    "timestamp": 1648165391
   }
 }
