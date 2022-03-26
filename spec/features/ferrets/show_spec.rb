@@ -25,5 +25,9 @@ RSpec.describe 'ferrets show page' do
       expect(page).to have_content('Different snack types owned:')
       expect(page).to have_content(3)
     end
+    it 'has link to ferret snacks index' do
+      click_link "#{@ferret1.name}'s snacks"
+      expect(page).to have_current_path("/ferrets/#{@ferret1.id}/snacks")
+    end
   end
 end

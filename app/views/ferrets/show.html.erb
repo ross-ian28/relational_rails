@@ -2,3 +2,4 @@
 <p>Is hungry?: <%= @ferret.hungry %></p>
 <p>Snacks eaten: <%= @ferret.snack_count %></p>
 <p>Different snack types owned: <%= @ferret.snacks_num %>
+<p><%= link_to "#{@ferret.name}'s snacks", "/ferrets/#{@ferret.id}/snacks" %></p>
