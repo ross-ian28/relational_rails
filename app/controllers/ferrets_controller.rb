@@ -8,13 +8,21 @@ class FerretsController < ApplicationController
   end
 
   def new
+  end
 
+  def edit
+    @ferret = Ferret.find(params[:id])
   end
 
   def create
     @ferret = Ferret.create!(ferret_params)
-
     redirect_to "/ferrets"
+  end
+
+  def update
+    @ferret = Ferret.find(params[:id])
+    @ferret.update(ferret_params)
+    redirect_to "/ferrets/#{@ferret.id}"
   end
 
   private
