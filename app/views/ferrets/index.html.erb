@@ -1,4 +1,6 @@
 <h1>All Ferrets</h1>
+<%= link_to "New ferret", "/ferrets/new" %>
+
 <% @ferrets.order(created_at: :desc).each do |ferret| %>
   <h4><%= ferret.name %></h4>
   Created at: <%= ferret.created_at.strftime("%d/%m/%Y %H:%M") %>

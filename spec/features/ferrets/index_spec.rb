@@ -15,5 +15,9 @@ RSpec.describe 'Ferret index page' do
     it 'orders ferrets by most recent' do
       expect(page).to have_content('Created at:')
     end
+    it 'has link to make new ferret' do
+      click_link 'New ferret'
+      expect(page).to have_current_path("/ferrets/new")
+    end
   end
 end
