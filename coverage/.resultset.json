@@ -230,6 +230,8 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
           1,
           1,
@@ -239,6 +241,33 @@
       "/Users/ianross/turing/mod2/relational_rails/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/ianross/turing/mod2/relational_rails/spec/features/ferrets/new_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -419,11 +448,27 @@
         "lines": [
           1,
           1,
-          2,
+          4,
           null,
           null,
           1,
           4,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
           null,
           null
         ]
@@ -457,6 +502,6 @@
         ]
       }
     },
-    "timestamp": 1648252541
+    "timestamp": 1648316140
   }
 }
