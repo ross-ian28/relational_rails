@@ -29,5 +29,9 @@ RSpec.describe 'ferrets show page' do
       click_link "#{@ferret1.name}'s snacks"
       expect(page).to have_current_path("/ferrets/#{@ferret1.id}/snacks")
     end
+    it 'has link to update ferrets' do
+      click_link 'Update ferret'
+      expect(page).to have_current_path("/ferrets/#{@ferret1.id}/edit")
+    end
   end
 end
