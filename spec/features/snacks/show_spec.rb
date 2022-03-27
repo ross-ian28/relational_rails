@@ -19,5 +19,9 @@ RSpec.describe 'Snack show page' do
       expect(page).to have_content('Amount of snacks:')
       expect(page).to have_content(@snack1.count)
     end
+    it 'has link to update snack' do
+      click_link 'Update snack'
+      expect(page).to have_current_path("/snacks/#{@snack1.id}/edit")
+    end
   end
 end

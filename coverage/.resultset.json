@@ -237,6 +237,9 @@
           1,
           1,
           1,
+          null,
+          1,
+          1,
           1,
           1,
           null
@@ -402,6 +405,34 @@
           null
         ]
       },
+      "/Users/ianross/turing/mod2/relational_rails/spec/features/snacks/edit_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/ianross/turing/mod2/relational_rails/spec/features/snacks/index_spec.rb": {
         "lines": [
           1,
@@ -429,10 +460,10 @@
           null,
           1,
           1,
-          2,
-          2,
-          2,
-          2,
+          3,
+          3,
+          3,
+          3,
           null,
           null,
           1,
@@ -442,6 +473,10 @@
           null,
           1,
           1,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -589,12 +624,28 @@
           null,
           null,
           1,
+          4,
+          null,
+          null,
+          1,
           2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1648339189
+    "timestamp": 1648347041
   }
 }

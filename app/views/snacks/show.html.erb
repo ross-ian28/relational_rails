@@ -1,3 +1,5 @@
 <h1><%= @snack.name %></h1>
+<%= link_to "Update snack", "/snacks/#{@snack.id}/edit" %>
+
 <p>Ferret safe?: <%= @snack.ferret_safe %></p>
 <p>Amount of snacks: <%= @snack.count %></p>
