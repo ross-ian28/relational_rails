@@ -17,5 +17,9 @@ RSpec.describe 'Ferrets snack index page' do
       expect(page).to have_content(@snack2.name)
       expect(page).to have_no_content(@snack3.name)
     end
+    it 'has link to make new snack' do
+      click_link 'Create snack'
+      expect(page).to have_current_path("/ferrets/#{@ferret1.id}/snacks/new")
+    end
   end
 end
