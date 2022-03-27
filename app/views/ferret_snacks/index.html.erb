@@ -1,4 +1,6 @@
 <h1><%= @ferret.name %>'s Snacks</h1>
+<%= link_to "Create snack", "/ferrets/#{@ferret.id}/snacks/new" %>
+
 <% @ferret.snacks.each do |snack| %>
   <p><%= snack.name %></p>
 <% end %>
