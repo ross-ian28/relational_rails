@@ -13,5 +13,8 @@ RSpec.describe 'Snack index page' do
       expect(page).to have_content(@snack1.name)
       expect(page).to have_content(@snack2.name)
     end
+    it 'has only true boolean outputs' do
+      within("Ferret safe snacks:")
+    end
   end
 end
