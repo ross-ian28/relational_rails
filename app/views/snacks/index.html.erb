@@ -2,3 +2,9 @@
 <% @snacks.each do |snack| %>
   <h4><p><%= snack.name %></p></h4>
 <% end %>
+<section id="ferret_safe">
+  <h2>Ferret safe snacks:</h2>
+  <% @snacks.ferret_safe_true.each do |snack| %>
+    <p><%= snack.name %></p>
+  <% end %>
+</section>
