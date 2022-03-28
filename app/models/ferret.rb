@@ -7,4 +7,8 @@ class Ferret < ApplicationRecord
   def snacks_num
     snacks.length
   end
+
+  def snack_true
+    snacks.where(ferret_safe: true)
+  end
 end
