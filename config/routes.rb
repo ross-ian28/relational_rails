@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   patch '/ferrets/:id', to: "ferrets#update"
   get '/ferrets/:id/edit', to: "ferrets#edit"
   post '/ferrets', to: "ferrets#create"
+  delete '/ferrets/:id', to: "ferrets#destroy"
 
   get '/ferrets/:ferret_id/snacks', to: "ferret_snacks#index"
   post '/ferrets/:ferret_id/snacks', to: "ferret_snacks#create"

@@ -25,6 +25,12 @@ class FerretsController < ApplicationController
     redirect_to "/ferrets/#{@ferret.id}"
   end
 
+  def destroy
+    @ferret = Ferret.find(params[:id])
+    @ferret.destroy
+    redirect_to "/ferrets"
+  end
+
   private
 
     def ferret_params
