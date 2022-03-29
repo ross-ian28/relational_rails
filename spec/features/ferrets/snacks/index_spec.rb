@@ -21,5 +21,15 @@ RSpec.describe 'Ferrets snack index page' do
       click_link 'Create snack'
       expect(page).to have_current_path("/ferrets/#{@ferret1.id}/snacks/new")
     end
+    it 'has links to edit each child' do
+      click_link "Edit #{@snack1.name}"
+      expect(current_path).to eq("/snacks/#{@snack1.id}/edit")
+      fill_in "Name", with: "Kibble"
+      fill_in "Ferret safe", with: true
+      fill_in "Count", with: 100000
+      click_button "Update snack"
+      expect(current_path).to eq("/snacks/#{@snack1.id}")
+      expect(page).to have_content("Kibble")
+    end
   end
 end
