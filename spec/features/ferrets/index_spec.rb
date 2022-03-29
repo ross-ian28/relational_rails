@@ -29,5 +29,10 @@ RSpec.describe 'Ferret index page' do
       expect(current_path).to eq("/ferrets/#{@ferret1.id}")
       expect(page).to have_content("Luffy")
     end
+    it 'has link to delete specific ferret' do
+      click_link "Delete #{@ferret1.name}"
+      expect(page).to have_current_path("/ferrets")
+      expect(page).to have_no_content("Pabu")
+    end
   end
 end
