@@ -1,5 +1,7 @@
 <h1><%= @snack.name %></h1>
-<%= link_to "Update snack", "/snacks/#{@snack.id}/edit" %>
+<%= link_to "Update #{@snack.name}", "/snacks/#{@snack.id}/edit" %>
 
 <p>Ferret safe?: <%= @snack.ferret_safe %></p>
 <p>Amount of snacks: <%= @snack.count %></p>
+
+<%= link_to "Delete #{@snack.name}", "/snacks/#{@snack.id}", method: :delete %>
