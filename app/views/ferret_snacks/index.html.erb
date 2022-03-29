@@ -3,4 +3,5 @@
 
 <% @ferret.snacks.each do |snack| %>
   <p><%= snack.name %></p>
+  <p><%= link_to "Edit #{snack.name}", "/snacks/#{snack.id}/edit" %></p>
 <% end %>
