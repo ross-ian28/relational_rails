@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-03-28T20:42:39-06:00">2022-03-28T20:42:39-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-03-28T20:48:57-06:00">2022-03-28T20:48:57-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.38
+         1.39
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>308</b> relevant lines,
-    <span class="green"><b>308</b> lines covered</span> and
+    <b>317</b> relevant lines,
+    <span class="green"><b>317</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -106,11 +106,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#a7d60d0f4a1a560b41baab551b056973d1a59e3c" class="src_link" title="app/controllers/snacks_controller.rb">app/controllers/snacks_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">25</td>
-            <td class="cell--number">14</td>
-            <td class="cell--number">14</td>
+            <td class="cell--number">31</td>
+            <td class="cell--number">18</td>
+            <td class="cell--number">18</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.86</td>
+            <td class="cell--number">1.78</td>
             
           </tr>
         
@@ -154,7 +154,7 @@
             <td class="cell--number">6</td>
             <td class="cell--number">6</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.50</td>
+            <td class="cell--number">1.67</td>
             
           </tr>
         
@@ -304,9 +304,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#eb18ac906d047a68d03678d06fbc1b5f52a8bdfb" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">18</td>
-            <td class="cell--number">15</td>
-            <td class="cell--number">15</td>
+            <td class="cell--number">19</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">16</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -392,11 +392,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#ea0854081237013fba54cecf7868e9c69feafb9f" class="src_link" title="spec/features/snacks/show_spec.rb">spec/features/snacks/show_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">27</td>
-            <td class="cell--number">19</td>
-            <td class="cell--number">19</td>
+            <td class="cell--number">32</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">23</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.42</td>
+            <td class="cell--number">1.52</td>
             
           </tr>
         
@@ -1228,8 +1228,8 @@
     
 
     <div class="t-line-summary">
-      <b>14</b> relevant lines.
-      <span class="green"><b>14</b> lines covered</span> and
+      <b>18</b> relevant lines.
+      <span class="green"><b>18</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1263,8 +1263,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="3">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="3">
+            <span class="hits">4</span>
             
 
             
@@ -1307,8 +1307,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="7">
-            <span class="hits">5</span>
+          <li class="covered" data-hits="6" data-linenumber="7">
+            <span class="hits">6</span>
             
 
             
@@ -1456,18 +1456,18 @@
 
             
 
-            <code class="ruby">  private</code>
+            <code class="ruby">  def destroy</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="21">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">    @snack = Snack.find(params[:id])</code>
           </li>
         </div>
       
@@ -1478,18 +1478,18 @@
 
             
 
-            <code class="ruby">    def snack_params</code>
+            <code class="ruby">    @snack.destroy</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="23">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">      params.permit(:name, :ferret_safe, :count)</code>
+            <code class="ruby">    redirect_to &quot;/snacks&quot;</code>
           </li>
         </div>
       
@@ -1500,12 +1500,78 @@
 
             
 
-            <code class="ruby">    end</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="28">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def snack_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="29">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">      params.permit(:name, :ferret_safe, :count)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
             
             
 
@@ -1926,8 +1992,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="8">
-            <span class="hits">4</span>
+          <li class="covered" data-hits="5" data-linenumber="8">
+            <span class="hits">5</span>
             
 
             
@@ -4261,8 +4327,8 @@
     
 
     <div class="t-line-summary">
-      <b>15</b> relevant lines.
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>16</b> relevant lines.
+      <span class="green"><b>16</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -4461,7 +4527,18 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="18">
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  delete &#39;/snacks/:id&#39;, to: &quot;snacks#destroy&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
             
             
 
@@ -7006,8 +7083,8 @@
     
 
     <div class="t-line-summary">
-      <b>19</b> relevant lines.
-      <span class="green"><b>19</b> lines covered</span> and
+      <b>23</b> relevant lines.
+      <span class="green"><b>23</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -7063,8 +7140,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="5">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="5">
+            <span class="hits">4</span>
             
 
             
@@ -7074,8 +7151,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="6">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="6">
+            <span class="hits">4</span>
             
 
             
@@ -7085,8 +7162,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="7">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="7">
+            <span class="hits">4</span>
             
 
             
@@ -7096,8 +7173,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="8">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="8">
+            <span class="hits">4</span>
             
 
             
@@ -7267,7 +7344,7 @@
 
             
 
-            <code class="ruby">      click_link &#39;Update snack&#39;</code>
+            <code class="ruby">      click_link &quot;Update #{@snack1.name}&quot;</code>
           </li>
         </div>
       
@@ -7294,7 +7371,62 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="26">
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;has link to delete snack&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      click_link &quot;Delete #{@snack1.name}&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="28">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(page).to have_current_path(&quot;/snacks&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(page).to have_no_content(&quot;#{@snack1.name}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
             
             
 
@@ -7305,7 +7437,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="27">
+          <li class="never" data-hits="" data-linenumber="32">
             
             
 

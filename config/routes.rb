@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   get '/snacks/:id/edit', to: "snacks#edit"
   patch '/snacks/:id', to: "snacks#update"
   get '/snacks/:id', to: "snacks#show"
+  delete '/snacks/:id', to: "snacks#destroy"
 end
